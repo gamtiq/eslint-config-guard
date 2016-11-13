@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-guard",
+  "version": "0.1.0",
+  "description": "ESLint configuration files (shareable configs) to guard from problems in different areas of JavaScript development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gamtiq/eslint-config-guard.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "shareable",
+    "config",
+    "guard",
+    "protect",
+    "prevent",
+    "es6",
+    "es2015",
+    "esnext",
+    "react",
+    "node",
+    "nodejs",
+    "style",
+    "optimum"
+  ],
+  "author": "Denis Sikuler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamtiq/eslint-config-guard/issues"
+  },
+  "homepage": "https://github.com/gamtiq/eslint-config-guard#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^6.6.0"
+  }
+}
