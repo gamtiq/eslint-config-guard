@@ -13,7 +13,9 @@ Includes:
 * `guard/jsdoc` - contains rules related to [JSDoc](http://usejsdoc.org/);
 * `guard/node` - configuration related to Node.js and CommonJS;
 * `guard/react` - configuration for React and JSX; extends [`plugin:react/recommended`](https://github.com/yannickcr/eslint-plugin-react);
-* `guard/style` - rules for stylistic issues.
+* `guard/style` - rules for stylistic issues;
+* `guard/test` - appropriate for use in tests (relaxes some rules from other configs);
+* `guard/test-mocha` - appropriate for use in [Mocha](http://mochajs.org/) tests; extends `guard/test`.
 
 The following files are combined configs which extend other configs:
 
@@ -52,5 +54,5 @@ In a `package.json`:
 ```
 
 ## License
-Copyright (c) 2016 Denis Sikuler  
+Copyright (c) 2016-2017 Denis Sikuler  
 Licensed under the MIT license.
