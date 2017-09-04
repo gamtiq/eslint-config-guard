@@ -42,11 +42,16 @@ module.exports = {
             "error",
             {
                 "enforceConst": true,
-                "ignore": [-1, 0, 1],
+                "ignore": [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
                 "ignoreArrayIndexes": true
             }
         ],
-        "no-multi-spaces": "warn",
+        "no-multi-spaces": [
+            "warn",
+            {
+                ignoreEOLComments: true
+            }
+        ],
         "no-multi-str": "error",
         "no-new-func": "error",
         "no-new-wrappers": "error",

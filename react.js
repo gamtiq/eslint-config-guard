@@ -77,7 +77,12 @@ module.exports = {
         ],
         "react/jsx-no-target-blank": "error",
         "react/jsx-pascal-case": "error",
-        "react/jsx-space-before-closing": "error",
+        "react/jsx-tag-spacing": [
+            "error",
+            {
+                "beforeSelfClosing": "always"
+            }
+        ],
         "react/jsx-wrap-multilines": "error"
     }
 };
