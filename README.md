@@ -54,5 +54,5 @@ In a `package.json`:
 ```
 
 ## License
-Copyright (c) 2016-2017 Denis Sikuler  
+Copyright (c) 2016-2018 Denis Sikuler  
 Licensed under the MIT license.
