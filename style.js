@@ -53,7 +53,6 @@ module.exports = {
                 "after": true
             }
         ],
-        "lines-around-directive": "error",
         "max-nested-callbacks": [
             "error",
             10
@@ -71,7 +70,6 @@ module.exports = {
         "multiline-ternary": "error",
         "new-cap": "error",
         "new-parens": "error",
-        "newline-before-return": "error",
         "newline-per-chained-call": "error",
         "no-array-constructor": "error",
         "no-bitwise": "error",
@@ -98,6 +96,12 @@ module.exports = {
         "one-var-declaration-per-line": [
             "error",
             "initializations"
+        ],
+        "padding-line-between-statements": [
+            "error",
+            { "blankLine": "always", "prev": "directive", "next": "*" },
+            { "blankLine": "any", "prev": "directive", "next": "directive" },
+            { "blankLine": "always", "prev": "*", "next": "return" }
         ],
         "quote-props": [
             "error",
