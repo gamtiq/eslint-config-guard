@@ -10,7 +10,7 @@ Includes:
     such as `eol-last`, `linebreak-style`, `no-trailing-spaces`;
 * `guard/esnext` - configuration for ECMAScript 6 features;
 * `guard/indent` - configuration of `indent` rule;
-* `guard/jsdoc` - contains rules related to [JSDoc](http://usejsdoc.org/);
+* `guard/jsdoc` - contains rules related to [JSDoc](https://jsdoc.app/);
 * `guard/node` - configuration related to Node.js and CommonJS;
 * `guard/react` - configuration for React and JSX; extends [`plugin:react/recommended`](https://github.com/yannickcr/eslint-plugin-react);
 * `guard/style` - rules for stylistic issues;
@@ -54,5 +54,5 @@ In a `package.json`:
 ```
 
 ## License
-Copyright (c) 2016-2018 Denis Sikuler  
+Copyright (c) 2016-2019 Denis Sikuler  
 Licensed under the MIT license.
