@@ -12,9 +12,11 @@ module.exports = {
     ],
     "rules": {
         // React
-        "react/no-children-prop": "error",
+        "react/button-has-type": "error",
+        "react/default-props-match-prop-types": "error",
+        "react/no-access-state-in-setstate": "error",
+        "react/no-array-index-key": "error",
         "react/no-danger": "error",
-        "react/no-danger-with-children": "error",
         "react/no-did-mount-set-state": "error",
         "react/no-did-update-set-state": "error",
         "react/no-multi-comp": [
@@ -23,11 +25,14 @@ module.exports = {
                 "ignoreStateless": true
             }
         ],
-        "react/no-string-refs": "warn",
-        "react/no-unescaped-entities": "error",
         "react/no-unused-prop-types": "error",
         "react/prefer-es6-class": "error",
         "react/prefer-stateless-function": "error",
+        "react/no-redundant-should-component-update": "error",
+        "react/no-this-in-sfc": "error",
+        "react/no-typos": "error",
+        "react/no-unsafe": "error",
+        "react/no-unused-state": "error",
         "react/self-closing-comp": [
             "error",
             {
@@ -44,8 +49,14 @@ module.exports = {
                 "requiredFirst": true
             }
         ],
+        "react/void-dom-elements-no-children": "error",
 
         // JSX
+        "react/jsx-closing-tag-location": "error",
+        "react/jsx-curly-newline": [
+            "error",
+            "consistent"
+        ],
         "react/jsx-equals-spacing": [
             "error",
             "never"
@@ -53,13 +64,17 @@ module.exports = {
         "react/jsx-handler-names": "error",
         "react/jsx-indent": [
             "error",
-            4
+            4,
+            {
+                "checkAttributes": true,
+                "indentLogicalExpressions": true
+            }
         ],
-        "react/jsx-key": "error",
         "react/jsx-max-props-per-line": [
             "error",
             {
-                "maximum": 1
+                "maximum": 1,
+                "when": "multiline"
             }
         ],
         "react/jsx-no-bind": [
@@ -68,21 +83,22 @@ module.exports = {
                 "ignoreRefs": true
             }
         ],
-        "react/jsx-no-comment-textnodes": "error",
         "react/jsx-no-duplicate-props": [
             "error",
             {
                 "ignoreCase": true
             }
         ],
-        "react/jsx-no-target-blank": "error",
-        "react/jsx-pascal-case": "error",
-        "react/jsx-tag-spacing": [
+        "react/jsx-one-expression-per-line": [
             "error",
             {
-                "beforeSelfClosing": "always"
+                "allow": "single-child"
             }
         ],
+        "react/jsx-pascal-case": "error",
+        "react/jsx-props-no-multi-spaces": "warn",
+        "react/jsx-sort-default-props": "warn",
+        "react/jsx-tag-spacing": "error",
         "react/jsx-wrap-multilines": "error"
     }
 };

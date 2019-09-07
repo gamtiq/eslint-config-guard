@@ -2,8 +2,10 @@ module.exports = {
     "extends": [
         "eslint:recommended"
     ],
+    "reportUnusedDisableDirectives": true,
     "rules": {
         // Possible Errors
+        "no-console": "error",
         "no-template-curly-in-string": "warn",
         
         // Best Practices
@@ -84,7 +86,6 @@ module.exports = {
                 "location": "anywhere"
             }
         ],
-        "no-with": "error",
         "radix": "error",
         "vars-on-top": "error",
         "wrap-iife": [
@@ -108,7 +109,6 @@ module.exports = {
         // Variables
         "no-catch-shadow": "error",
         "no-label-var": "error",
-        "no-shadow-restricted-names": "error",
         "no-shadow": [
             "warn",
             {
