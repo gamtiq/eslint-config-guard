@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration files (shareable configs) to guard from problems in different areas of JavaScript development.",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/gamtiq/eslint-config-guard#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 6"
   },
   "dependencies": {
     "eslint-plugin-react": "7.14.3"
