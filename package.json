@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint configuration files (shareable configs) to guard from problems in different areas of JavaScript development.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,11 @@
     "node",
     "nodejs",
     "style",
-    "optimum"
+    "optimum",
+    "editor",
+    "jsdoc",
+    "test",
+    "mocha"
   ],
   "author": "Denis Sikuler",
   "license": "MIT",
