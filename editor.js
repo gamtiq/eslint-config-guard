@@ -9,7 +9,8 @@ module.exports = {
         "no-trailing-spaces": [
             "warn",
             {
-                "skipBlankLines": true
+                "skipBlankLines": true,
+                "ignoreComments": true
             }
         ]
     }
