@@ -34,7 +34,10 @@ module.exports = {
         ],
         "func-call-spacing": "error",
         "func-name-matching": "error",
-        "func-names": "error",
+        "func-names": [
+            "error",
+            "as-needed"
+        ],
         "jsx-quotes": [
             "error",
             "prefer-double"
