@@ -18,6 +18,19 @@
     "guard",
     "protect",
     "prevent",
+    "validate",
+    "verify",
+    "enforce",
+    "strict",
+    "code",
+    "quality",
+    "policy",
+    "lint",
+    "linter",
+    "check",
+    "checker",
+    "hint",
+    "simple",
     "es6",
     "es2015",
     "esnext",
@@ -25,10 +38,12 @@
     "node",
     "nodejs",
     "style",
+    "styleguide",
     "optimum",
     "editor",
     "jsdoc",
     "test",
+    "jest",
     "mocha"
   ],
   "author": "Denis Sikuler",
@@ -38,9 +53,9 @@
   },
   "homepage": "https://github.com/gamtiq/eslint-config-guard#readme",
   "peerDependencies": {
-    "eslint": ">= 6"
+    "eslint": ">= 6.7.2"
   },
   "dependencies": {
-    "eslint-plugin-react": "7.14.3"
+    "eslint-plugin-react": "7.18.3"
   }
 }

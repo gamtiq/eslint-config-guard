@@ -1,6 +1,6 @@
 module.exports = {
     "extends": [
-        "guard/optimum",
-        "guard/esnext"
+        "./optimum",
+        "./esnext"
     ]
 };

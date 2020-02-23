@@ -1,6 +1,6 @@
 module.exports = {
     "extends": [
-        "guard/indent",
-        "guard/style"
+        "./indent",
+        "./style"
     ]
 };

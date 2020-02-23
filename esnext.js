@@ -19,6 +19,7 @@ module.exports = {
             "always"
         ],
         "arrow-spacing": "error",
+        "default-param-last": "error",
         "generator-star-spacing": [
             "error",
             "before"
@@ -29,7 +30,9 @@ module.exports = {
                 "allowParens": true
             }
         ],
+        "no-constructor-return": "error",
         "no-duplicate-imports": "error",
+        "no-import-assign": "error",
         "no-useless-computed-key": "error",
         "no-useless-constructor": "warn",
         "no-useless-rename": "error",

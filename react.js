@@ -94,6 +94,8 @@ module.exports = {
                 "ignoreCase": true
             }
         ],
+        "react/jsx-no-script-url": "error",
+        "react/jsx-no-useless-fragment": "error",
         "react/jsx-one-expression-per-line": [
             "error",
             {

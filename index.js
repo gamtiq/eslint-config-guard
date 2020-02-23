@@ -6,10 +6,24 @@ module.exports = {
     "rules": {
         // Possible Errors
         "no-console": "error",
+        "no-dupe-else-if": "error",
+        "no-setter-return": "error",
         "no-template-curly-in-string": "warn",
+        "use-isnan": [
+            "error",
+            {
+                "enforceForIndexOf": true,
+                "enforceForSwitchCase": true
+            }
+        ],
         
         // Best Practices
-        "accessor-pairs": "error",
+        "accessor-pairs": [
+            "error",
+            {
+                "enforceForClassMembers": true
+            }
+        ],
         "array-callback-return": "error",
         "block-scoped-var": "error",
         "class-methods-use-this": "warn",
@@ -25,6 +39,10 @@ module.exports = {
             }
         ],
         "eqeqeq": "error",
+        "grouped-accessor-pairs": [
+            "error",
+            "getBeforeSet"
+        ],
         "no-eq-null": "error",
         "no-eval": "error",
         "no-extend-native": "error",
@@ -51,7 +69,7 @@ module.exports = {
         "no-multi-spaces": [
             "warn",
             {
-                ignoreEOLComments: true
+                "ignoreEOLComments": true
             }
         ],
         "no-multi-str": "error",
@@ -73,7 +91,12 @@ module.exports = {
         "no-sequences": "error",
         "no-throw-literal": "error",
         "no-unmodified-loop-condition": "error",
-        "no-unsafe-negation": "error",
+        "no-unsafe-negation": [
+            "error",
+            {
+                "enforceForOrderingRelations": true
+            }
+        ],
         "no-unused-expressions": "error",
         "no-useless-call": "error",
         "no-useless-concat": "error",
@@ -86,6 +109,7 @@ module.exports = {
                 "location": "anywhere"
             }
         ],
+        "prefer-regex-literals": "error",
         "radix": "error",
         "vars-on-top": "error",
         "wrap-iife": [

@@ -27,7 +27,13 @@ module.exports = {
         ],
         "comma-spacing": "error",
         "comma-style": "error",
-        "computed-property-spacing": "error",
+        "computed-property-spacing": [
+            "error",
+            "never",
+            {
+                "enforceForClassMembers": true
+            }
+        ],
         "consistent-this": [
             "error",
             "that"

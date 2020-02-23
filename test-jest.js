@@ -3,7 +3,7 @@ module.exports = {
         "./test"
     ],
     "env": {
-        "mocha": true,
+        "jest": true,
         "node": true
     }
 };
