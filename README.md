@@ -11,12 +11,16 @@ Includes:
 * `guard/esnext` - configuration for ECMAScript 6/2015+ features;
 * `guard/indent` - configuration of `indent` rule;
 * `guard/jsdoc` - contains rules related to [JSDoc](https://jsdoc.app/);
+* `guard/no-prettier` - adds `"prettier/prettier": "off"` to rules; can be helpful to use with [TSDX](https://github.com/jaredpalmer/tsdx);
 * `guard/node` - configuration related to Node.js and CommonJS;
 * `guard/react` - configuration for React and JSX; extends [`plugin:react/recommended`](https://github.com/yannickcr/eslint-plugin-react);
 * `guard/style` - rules for stylistic issues;
 * `guard/test` - appropriate for use in tests (relaxes some rules from other configs);
-* `guard/test-jest` - appropriate for use in [Jest](https://jestjs.io/) tests; extends `guard/test`.
-* `guard/test-mocha` - appropriate for use in [Mocha](https://mochajs.org/) tests; extends `guard/test`.
+* `guard/test-jest` - appropriate for use in [Jest](https://jestjs.io/) tests; extends `guard/test`;
+* `guard/test-mocha` - appropriate for use in [Mocha](https://mochajs.org/) tests; extends `guard/test`;
+* `guard/typescript` - configuration for TypeScript; extends `guard/esnext` and [`plugin:@typescript-eslint/recommended`](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin);
+* `guard/typescript-ext` - configuration for TypeScript containing type-aware rules; extends `guard/typescript` and [`plugin:@typescript-eslint/recommended-requiring-type-checking`](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md);
+  to use the configuration you should specify `parserOptions.project` in ESLint config file (see [details](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/TYPED_LINTING.md)).
 
 The following files are combined configs which extend other configs:
 
@@ -27,6 +31,14 @@ The following files are combined configs which extend other configs:
 ## Installation
 
     npm install eslint-config-guard --save-dev
+
+If you are going to use `guard/react` you should install [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react):
+
+    npm install eslint-plugin-react --save-dev
+
+If you are going to use `guard/typescript` or `guard/typescript-ext` you should install [`@typescript-eslint/eslint-plugin`](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin):
+
+    npm install @typescript-eslint/eslint-plugin --save-dev
 
 ## Usage
 
