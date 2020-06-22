@@ -1,3 +1,7 @@
+### 1.2.0 / 2020-06-22
+
+* Update ESLint version up to 7.3.0 and add new rules.
+
 ### 1.1.0 / 2020-02-24
 
 * Add config files to lint TypeScript code (`guard/typescript` and `guard/typescript-ext`).
