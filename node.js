@@ -2,16 +2,20 @@ module.exports = {
     "env": {
         "node": true
     },
+    "extends": [
+        "plugin:node/recommended"
+    ],
     "rules": {
-        // Node.js and CommonJS
-        "callback-return": "error",
-        "global-require": "error",
-        "handle-callback-err": "error",
-        "no-mixed-requires": "error",
         "no-console": "off",
-        "no-new-require": "error",
-        "no-path-concat": "error",
-        "no-process-env": "error",
-        "no-process-exit": "error"
+
+        // Node.js and CommonJS
+        "node/callback-return": "error",
+        "node/global-require": "error",
+        "node/handle-callback-err": "error",
+        "node/no-mixed-requires": "error",
+        "node/no-new-require": "error",
+        "node/no-path-concat": "error",
+        "node/no-process-env": "error",
+        "node/no-process-exit": "error"
     }
 };

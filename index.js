@@ -6,9 +6,11 @@ module.exports = {
     "rules": {
         // Possible Errors
         "no-console": "error",
-        "no-dupe-else-if": "error",
-        "no-setter-return": "error",
+        "no-loss-of-precision": "error",
+        "no-promise-executor-return": "error",
         "no-template-curly-in-string": "warn",
+        "no-unreachable-loop": "error",
+        "no-useless-backreference": "error",
         "use-isnan": [
             "error",
             {
@@ -28,6 +30,7 @@ module.exports = {
         "block-scoped-var": "error",
         "class-methods-use-this": "warn",
         "consistent-return": "error",
+        "default-case-last": "error",
         "dot-location": [
             "warn",
             "property"

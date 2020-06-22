@@ -32,7 +32,6 @@ module.exports = {
         ],
         "no-constructor-return": "error",
         "no-duplicate-imports": "error",
-        "no-import-assign": "error",
         "no-useless-computed-key": "error",
         "no-useless-constructor": "warn",
         "no-useless-rename": "error",
