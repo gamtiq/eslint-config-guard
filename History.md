@@ -1,3 +1,7 @@
+### 1.3.0 / 2020-07-24
+
+* Improve and fix TypeScript related rules.
+
 ### 1.2.0 / 2020-06-22
 
 * Update ESLint version up to 7.3.0 and add new rules.
