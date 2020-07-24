@@ -22,6 +22,17 @@ module.exports = {
                 "default": "array-simple"
             }
         ],
+        "@typescript-eslint/ban-ts-comment": [
+            "error",
+            {
+                "ts-expect-error": "allow-with-description",
+                "ts-ignore": "allow-with-description",
+                "ts-nocheck": "allow-with-description",
+                "ts-check": false,
+                "minimumDescriptionLength": 5
+            }
+        ],
+        "@typescript-eslint/no-confusing-non-null-assertion": "error",
         "@typescript-eslint/explicit-module-boundary-types": "error",
         "@typescript-eslint/member-ordering": [
             "error",
@@ -87,6 +98,7 @@ module.exports = {
         "@typescript-eslint/no-require-imports": "error",
         "@typescript-eslint/prefer-as-const": "error",
         "@typescript-eslint/prefer-function-type": "error",
+        "@typescript-eslint/prefer-literal-enum-member": "error",
         "@typescript-eslint/prefer-optional-chain": "error",
         "@typescript-eslint/unified-signatures": "error",
 
@@ -116,6 +128,9 @@ module.exports = {
         "no-extra-semi": "off",
         "@typescript-eslint/no-extra-semi": "error",
 
+        "no-loss-of-precision": "off",
+        "@typescript-eslint/no-loss-of-precision": "error",
+      
         "no-magic-numbers": "off",
         "@typescript-eslint/no-magic-numbers": [
             noMagicNumberRule[0],
