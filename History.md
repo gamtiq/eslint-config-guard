@@ -1,3 +1,7 @@
+### 1.3.1 / 2020-07-25
+
+* Relax `@typescript-eslint/naming-convention` rule for properties.
+
 ### 1.3.0 / 2020-07-24
 
 * Improve and fix TypeScript related rules.
