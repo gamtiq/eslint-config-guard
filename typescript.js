@@ -82,6 +82,20 @@ module.exports = {
                 leadingUnderscore: 'allow'
             },
             {
+                selector: "property",
+                format: ["camelCase", "snake_case", "UPPER_CASE"]
+            },
+            {
+                // Ignore property names that require quoting
+                // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
+                selector: "property",
+                format: null,
+                filter: {
+                    regex: "[- ]",
+                    match: true
+                }
+            },
+            {
                 selector: 'typeLike',
                 format: ['PascalCase'],
             },
