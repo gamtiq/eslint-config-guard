@@ -1,3 +1,7 @@
+### 2.0.1 / 2020-08-05
+
+* Use full package path to extend local config files.
+
 ### 2.0.0 / 2020-08-05
 
 * Move TypeScript-related configuration files into separate package [eslint-config-ts-guard](https://github.com/gamtiq/eslint-config-ts-guard) (*breaking change*).

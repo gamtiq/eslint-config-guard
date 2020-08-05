@@ -32,6 +32,10 @@ See [eslint-config-ts-guard](https://github.com/gamtiq/eslint-config-ts-guard) f
 
     npm install eslint-config-guard --save-dev
 
+If you are going to use `guard/node` you should install [`eslint-plugin-node`](https://github.com/mysticatea/eslint-plugin-node):
+
+    npm install eslint-plugin-node --save-dev
+
 If you are going to use `guard/proper-arrows` you should install [`@getify/eslint-plugin-proper-arrows`](https://github.com/getify/eslint-plugin-proper-arrows):
 
     npm install @getify/eslint-plugin-proper-arrows --save-dev
