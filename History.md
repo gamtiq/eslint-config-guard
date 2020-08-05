@@ -1,3 +1,8 @@
+### 2.0.0 / 2020-08-05
+
+* Move TypeScript-related configuration files into separate package [eslint-config-ts-guard](https://github.com/gamtiq/eslint-config-ts-guard) (*breaking change*).
+* Add `guard/proper-arrows` config file containing stylistic rules related to arrow functions.
+
 ### 1.3.1 / 2020-07-25
 
 * Relax `@typescript-eslint/naming-convention` rule for properties.

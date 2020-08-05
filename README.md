@@ -26,6 +26,8 @@ The following files are combined configs which extend other configs:
 * `guard/optimum` - extends `guard` and `guard/ext-style`;
 * `guard/optimum-next` - extends `guard/optimum` and `guard/esnext`.
 
+See [eslint-config-ts-guard](https://github.com/gamtiq/eslint-config-ts-guard) for configuration files related to TypeScript.
+
 ## Installation
 
     npm install eslint-config-guard --save-dev
