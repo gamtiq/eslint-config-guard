@@ -37,7 +37,7 @@
     "es6",
     "es2015",
     "esnext",
-    "typescript",
+    "proper-arrows",
     "react",
     "node",
     "nodejs",
@@ -58,12 +58,8 @@
   "homepage": "https://github.com/gamtiq/eslint-config-guard#readme",
   "peerDependencies": {
     "@getify/eslint-plugin-proper-arrows": "^10.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.6.0",
     "eslint": "^7.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.20.0"
-  },
-  "dependencies": {
-    "@typescript-eslint/parser": "^3.7.0"
   }
 }
