@@ -13,6 +13,7 @@ Includes:
 * `guard/jsdoc` - contains rules related to [JSDoc](https://jsdoc.app/);
 * `guard/no-prettier` - adds `"prettier/prettier": "off"` to rules; can be helpful to use with [TSDX](https://github.com/jaredpalmer/tsdx);
 * `guard/node` - configuration related to Node.js and CommonJS;
+* `guard/proper-arrows` - configuration for stylistic rules related to arrow functions (see [`@getify/eslint-plugin-proper-arrows`](https://github.com/getify/eslint-plugin-proper-arrows));
 * `guard/react` - configuration for React and JSX; extends [`plugin:react/recommended`](https://github.com/yannickcr/eslint-plugin-react);
 * `guard/style` - rules for stylistic issues;
 * `guard/test` - appropriate for use in tests (relaxes some rules from other configs);
@@ -31,6 +32,10 @@ The following files are combined configs which extend other configs:
 ## Installation
 
     npm install eslint-config-guard --save-dev
+
+If you are going to use `guard/proper-arrows` you should install [`@getify/eslint-plugin-proper-arrows`](https://github.com/getify/eslint-plugin-proper-arrows):
+
+    npm install @getify/eslint-plugin-proper-arrows --save-dev
 
 If you are going to use `guard/react` you should install [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react):
 
@@ -60,6 +65,7 @@ In a `package.json`:
     "eslintConfig": {
         "extends": [
             "guard/optimum-next",
+            "guard/proper-arrows",
             "guard/react"
         ]
     }
