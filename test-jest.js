@@ -1,6 +1,6 @@
 module.exports = {
     "extends": [
-        "./test"
+        "guard/test"
     ],
     "env": {
         "jest": true,

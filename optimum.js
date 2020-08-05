@@ -1,6 +1,6 @@
 module.exports = {
     "extends": [
-        "./index",
-        "./ext-style"
+        "guard/index",
+        "guard/ext-style"
     ]
 };
