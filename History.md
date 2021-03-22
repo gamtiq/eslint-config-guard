@@ -1,3 +1,9 @@
+### 2.1.0 / 2020-03-22
+
+* Added the following rules: `no-nonoctal-decimal-escape`, `no-unsafe-optional-chaining`, `react/jsx-key`, `react/jsx-no-constructed-context-values`, `react/jsx-no-target-blank`.
+* Set `ignoreDefaultValues` option for `no-magic-numbers` rule.
+* Set `enforceForJSX` option for `no-unused-expressions` rule.
+
 ### 2.0.1 / 2020-08-05
 
 * Use full package path to extend local config files.
