@@ -75,6 +75,12 @@ module.exports = {
                 "indentLogicalExpressions": true
             }
         ],
+        "react/jsx-key": [
+            "error",
+            {
+                "checkFragmentShorthand": true
+            }
+        ],
         "react/jsx-max-props-per-line": [
             "error",
             {
@@ -88,6 +94,7 @@ module.exports = {
                 "ignoreRefs": true
             }
         ],
+        "react/jsx-no-constructed-context-values": "error",
         "react/jsx-no-duplicate-props": [
             "error",
             {
@@ -95,6 +102,12 @@ module.exports = {
             }
         ],
         "react/jsx-no-script-url": "error",
+        "react/jsx-no-target-blank": [
+            "error",
+            {
+                "warnOnSpreadAttributes": true
+            }
+        ],
         "react/jsx-no-useless-fragment": "error",
         "react/jsx-one-expression-per-line": [
             "error",

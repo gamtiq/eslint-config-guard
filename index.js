@@ -66,7 +66,8 @@ module.exports = {
             {
                 "enforceConst": true,
                 "ignore": [-1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 24, 60, 100, 1000],
-                "ignoreArrayIndexes": true
+                "ignoreArrayIndexes": true,
+                "ignoreDefaultValues": true
             }
         ],
         "no-multi-spaces": [
@@ -79,6 +80,7 @@ module.exports = {
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-new": "error",
+        "no-nonoctal-decimal-escape": "error",
         "no-octal-escape": "error",
         "no-param-reassign": "error",
         "no-proto": "error",
@@ -100,7 +102,18 @@ module.exports = {
                 "enforceForOrderingRelations": true
             }
         ],
-        "no-unused-expressions": "error",
+        "no-unsafe-optional-chaining": [
+            "error",
+            {
+                "disallowArithmeticOperators": true
+            }
+        ],
+        "no-unused-expressions": [
+            "error",
+            {
+                "enforceForJSX": true
+            }
+        ],
         "no-useless-call": "error",
         "no-useless-concat": "error",
         "no-useless-escape": "error",

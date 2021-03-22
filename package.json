@@ -58,8 +58,8 @@
   "homepage": "https://github.com/gamtiq/eslint-config-guard#readme",
   "peerDependencies": {
     "@getify/eslint-plugin-proper-arrows": "^10.0.0",
-    "eslint": "^7.3.0",
+    "eslint": "^7.20.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-react": "^7.20.0"
+    "eslint-plugin-react": "^7.22.0"
   }
 }
