@@ -1,4 +1,8 @@
-### 2.1.0 / 2020-03-22
+### 2.1.1 / 2021-10-09
+
+* Added `no-multi-assign` rule.
+
+### 2.1.0 / 2021-03-22
 
 * Added the following rules: `no-nonoctal-decimal-escape`, `no-unsafe-optional-chaining`, `react/jsx-key`, `react/jsx-no-constructed-context-values`, `react/jsx-no-target-blank`.
 * Set `ignoreDefaultValues` option for `no-magic-numbers` rule.
