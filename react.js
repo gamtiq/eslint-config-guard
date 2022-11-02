@@ -21,9 +21,11 @@ module.exports = {
         "react/default-props-match-prop-types": "error",
         "react/no-access-state-in-setstate": "error",
         "react/no-array-index-key": "error",
+        "react/no-arrow-function-lifecycle": "error",
         "react/no-danger": "error",
         "react/no-did-mount-set-state": "error",
         "react/no-did-update-set-state": "error",
+        "react/no-invalid-html-attribute": "error",
         "react/no-multi-comp": [
             "error",
             {
@@ -33,6 +35,7 @@ module.exports = {
         "react/no-unused-prop-types": "error",
         "react/prefer-es6-class": "error",
         "react/prefer-stateless-function": "error",
+        "react/no-namespace": "error",
         "react/no-redundant-should-component-update": "error",
         "react/no-this-in-sfc": "error",
         "react/no-typos": "error",
@@ -78,7 +81,8 @@ module.exports = {
         "react/jsx-key": [
             "error",
             {
-                "checkFragmentShorthand": true
+                "checkFragmentShorthand": true,
+                "warnOnDuplicates": true
             }
         ],
         "react/jsx-max-props-per-line": [
@@ -101,6 +105,7 @@ module.exports = {
                 "ignoreCase": true
             }
         ],
+        "react/jsx-no-leaked-render": "error",
         "react/jsx-no-script-url": "error",
         "react/jsx-no-target-blank": [
             "error",

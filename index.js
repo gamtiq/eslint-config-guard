@@ -4,13 +4,13 @@ module.exports = {
     ],
     "reportUnusedDisableDirectives": true,
     "rules": {
-        // Possible Errors
+        // Possible Problems
         "no-console": "error",
-        "no-loss-of-precision": "error",
+        "no-constant-binary-expression": "error",
         "no-promise-executor-return": "error",
         "no-template-curly-in-string": "warn",
         "no-unreachable-loop": "error",
-        "no-useless-backreference": "error",
+        "no-unused-private-class-members": "error",
         "use-isnan": [
             "error",
             {
@@ -80,7 +80,6 @@ module.exports = {
         "no-new-func": "error",
         "no-new-wrappers": "error",
         "no-new": "error",
-        "no-nonoctal-decimal-escape": "error",
         "no-octal-escape": "error",
         "no-param-reassign": "error",
         "no-proto": "error",
