@@ -72,5 +72,5 @@ In a `package.json`:
 ```
 
 ## License
-Copyright (c) 2016-2021 Denis Sikuler  
+Copyright (c) 2016-2022 Denis Sikuler  
 Licensed under the MIT license.

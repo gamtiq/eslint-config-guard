@@ -1,3 +1,10 @@
+### 3.0.0 / 2022-11-02
+
+* Updated ESLint version up to 8.14.0.
+* Updated `eslint-plugin-react` version.
+* Added the following rules: `no-constant-binary-expression`, `no-unused-private-class-members`, `react/no-arrow-function-lifecycle`, `react/no-invalid-html-attribute`, `react/no-namespace`, `react/jsx-no-leaked-render`.
+* Added `warnOnDuplicates` option for `react/jsx-key` rule.
+
 ### 2.1.1 / 2021-10-09
 
 * Added `no-multi-assign` rule.

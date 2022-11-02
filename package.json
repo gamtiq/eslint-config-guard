@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guard",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "ESLint configuration files (shareable configs) to guard from problems in different areas of JavaScript development.",
   "main": "index.js",
   "scripts": {
